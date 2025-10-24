@@ -1,0 +1,279 @@
+{
+    "data": [
+        {
+            "id": "019a122c-4af9-7141-8fd4-a55a0a4951d7",
+            "title": "Pastilha de Freio id",
+            "brand": "Monroe",
+            "part_number": "IK664-9876E",
+            "price": 166.81,
+            "thumbnail": "https:\/\/picsum.photos\/seed\/IK664-9876E\/200\/300",
+            "specifications": "Peso Bruto: 6.71kg | Dimens\u00f5es (LxC): 17.7cm x 65cm | Material Principal: Borracha Sint\u00e9tica | Garantia do Fabricante: 12 meses",
+            "stock_quantity": 60,
+            "category": {
+                "name": "Freios",
+                "slug": "freios"
+            }
+        },
+        {
+            "id": "019a122c-4b03-7303-bc34-a951194c86fc",
+            "title": "Pastilha de Freio ut",
+            "brand": "NGK",
+            "part_number": "OO146-9899A",
+            "price": 1181.38,
+            "thumbnail": "https:\/\/picsum.photos\/seed\/OO146-9899A\/200\/300",
+            "specifications": "Peso Bruto: 10.31kg | Dimens\u00f5es (LxC): 15.8cm x 48cm | Material Principal: Alum\u00ednio | Garantia do Fabricante: 12 meses",
+            "stock_quantity": 22,
+            "category": {
+                "name": "Freios",
+                "slug": "freios"
+            }
+        },
+        {
+            "id": "019a122c-4b0d-7221-bb90-5e25193de23d",
+            "title": "Disco de Freio minima",
+            "brand": "Monroe",
+            "part_number": "ZJ780-7207C",
+            "price": 176.76,
+            "thumbnail": "https:\/\/picsum.photos\/seed\/ZJ780-7207C\/200\/300",
+            "specifications": "Peso Bruto: 12.17kg | Dimens\u00f5es (LxC): 26.9cm x 34.9cm | Material Principal: Borracha Sint\u00e9tica | Garantia do Fabricante: 12 meses",
+            "stock_quantity": 110,
+            "category": {
+                "name": "Freios",
+                "slug": "freios"
+            }
+        },
+        {
+            "id": "019a122c-4b15-70cd-8243-56d92749326c",
+            "title": "Disco de Freio neque",
+            "brand": "NGK",
+            "part_number": "AJ214-9368O",
+            "price": 616.72,
+            "thumbnail": "https:\/\/picsum.photos\/seed\/AJ214-9368O\/200\/300",
+            "specifications": "Peso Bruto: 5.72kg | Dimens\u00f5es (LxC): 15.7cm x 38.7cm | Material Principal: Alum\u00ednio | Garantia do Fabricante: 12 meses",
+            "stock_quantity": 144,
+            "category": {
+                "name": "Freios",
+                "slug": "freios"
+            }
+        },
+        {
+            "id": "019a122c-4b3f-731f-9341-96d67f4a79c8",
+            "title": "Pastilha de Freio cumque",
+            "brand": "Brembo",
+            "part_number": "GK939-7419C",
+            "price": 1451.45,
+            "thumbnail": "https:\/\/picsum.photos\/seed\/GK939-7419C\/200\/300",
+            "specifications": "Peso Bruto: 11.63kg | Dimens\u00f5es (LxC): 45.7cm x 61.9cm | Material Principal: A\u00e7o Carbono | Garantia do Fabricante: 12 meses",
+            "stock_quantity": 112,
+            "category": {
+                "name": "Freios",
+                "slug": "freios"
+            }
+        },
+        {
+            "id": "019a122c-4b4e-716c-987c-c25378bad39e",
+            "title": "Pastilha de Freio soluta",
+            "brand": "SKF",
+            "part_number": "LK171-2533I",
+            "price": 1491.94,
+            "thumbnail": "https:\/\/picsum.photos\/seed\/LK171-2533I\/200\/300",
+            "specifications": "Peso Bruto: 0.51kg | Dimens\u00f5es (LxC): 43.3cm x 57.6cm | Material Principal: Borracha Sint\u00e9tica | Garantia do Fabricante: 12 meses",
+            "stock_quantity": 60,
+            "category": {
+                "name": "Freios",
+                "slug": "freios"
+            }
+        },
+        {
+            "id": "019a122c-4b59-7043-a28c-a43af4dd85fd",
+            "title": "Disco de Freio ea",
+            "brand": "NGK",
+            "part_number": "SD580-3306N",
+            "price": 76.09,
+            "thumbnail": "https:\/\/picsum.photos\/seed\/SD580-3306N\/200\/300",
+            "specifications": "Peso Bruto: 10.18kg | Dimens\u00f5es (LxC): 47cm x 52.6cm | Material Principal: Borracha Sint\u00e9tica | Garantia do Fabricante: 12 meses",
+            "stock_quantity": 134,
+            "category": {
+                "name": "Freios",
+                "slug": "freios"
+            }
+        },
+        {
+            "id": "019a122c-4b72-7266-953f-b93ee7bca16f",
+            "title": "Disco de Freio ratione",
+            "brand": "Monroe",
+            "part_number": "VP617-6666G",
+            "price": 835.4,
+            "thumbnail": "https:\/\/picsum.photos\/seed\/VP617-6666G\/200\/300",
+            "specifications": "Peso Bruto: 7.72kg | Dimens\u00f5es (LxC): 22.7cm x 34.7cm | Material Principal: Borracha Sint\u00e9tica | Garantia do Fabricante: 12 meses",
+            "stock_quantity": 176,
+            "category": {
+                "name": "Freios",
+                "slug": "freios"
+            }
+        },
+        {
+            "id": "019a122c-4b89-7257-aa42-73c088c5cf33",
+            "title": "Pastilha de Freio placeat",
+            "brand": "Bosch",
+            "part_number": "BP360-7769H",
+            "price": 113.12,
+            "thumbnail": "https:\/\/picsum.photos\/seed\/BP360-7769H\/200\/300",
+            "specifications": "Peso Bruto: 8.96kg | Dimens\u00f5es (LxC): 46.8cm x 47.3cm | Material Principal: Cer\u00e2mica | Garantia do Fabricante: 12 meses",
+            "stock_quantity": 196,
+            "category": {
+                "name": "Freios",
+                "slug": "freios"
+            }
+        },
+        {
+            "id": "019a122c-4ba4-733a-bb3f-b168bd5a6c8a",
+            "title": "Disco de Freio quis",
+            "brand": "Brembo",
+            "part_number": "WS674-8514F",
+            "price": 695.18,
+            "thumbnail": "https:\/\/picsum.photos\/seed\/WS674-8514F\/200\/300",
+            "specifications": "Peso Bruto: 2.69kg | Dimens\u00f5es (LxC): 5.7cm x 60.5cm | Material Principal: Cer\u00e2mica | Garantia do Fabricante: 12 meses",
+            "stock_quantity": 77,
+            "category": {
+                "name": "Freios",
+                "slug": "freios"
+            }
+        },
+        {
+            "id": "019a122c-4bad-73a4-b624-86bceb8407b0",
+            "title": "Disco de Freio modi",
+            "brand": "SKF",
+            "part_number": "AM236-9129Y",
+            "price": 1128.2,
+            "thumbnail": "https:\/\/picsum.photos\/seed\/AM236-9129Y\/200\/300",
+            "specifications": "Peso Bruto: 3kg | Dimens\u00f5es (LxC): 31cm x 81.4cm | Material Principal: Cer\u00e2mica | Garantia do Fabricante: 12 meses",
+            "stock_quantity": 197,
+            "category": {
+                "name": "Freios",
+                "slug": "freios"
+            }
+        },
+        {
+            "id": "019a122c-4bb1-7068-97bd-6bee1bd0ac9c",
+            "title": "Pastilha de Freio qui",
+            "brand": "Bosch",
+            "part_number": "OT937-5152J",
+            "price": 1361.26,
+            "thumbnail": "https:\/\/picsum.photos\/seed\/OT937-5152J\/200\/300",
+            "specifications": "Peso Bruto: 0.15kg | Dimens\u00f5es (LxC): 6cm x 78.1cm | Material Principal: A\u00e7o Carbono | Garantia do Fabricante: 12 meses",
+            "stock_quantity": 32,
+            "category": {
+                "name": "Freios",
+                "slug": "freios"
+            }
+        }
+    ],
+    "links": {
+        "first": "https:\/\/api.devmka.online\/categories\/1\/products?page=1",
+        "last": "https:\/\/api.devmka.online\/categories\/1\/products?page=81",
+        "prev": null,
+        "next": "https:\/\/api.devmka.online\/categories\/1\/products?page=2"
+    },
+    "meta": {
+        "current_page": 1,
+        "from": 1,
+        "last_page": 81,
+        "links": [
+            {
+                "url": null,
+                "label": "&laquo; Previous",
+                "page": null,
+                "active": false
+            },
+            {
+                "url": "https:\/\/api.devmka.online\/categories\/1\/products?page=1",
+                "label": "1",
+                "page": 1,
+                "active": true
+            },
+            {
+                "url": "https:\/\/api.devmka.online\/categories\/1\/products?page=2",
+                "label": "2",
+                "page": 2,
+                "active": false
+            },
+            {
+                "url": "https:\/\/api.devmka.online\/categories\/1\/products?page=3",
+                "label": "3",
+                "page": 3,
+                "active": false
+            },
+            {
+                "url": "https:\/\/api.devmka.online\/categories\/1\/products?page=4",
+                "label": "4",
+                "page": 4,
+                "active": false
+            },
+            {
+                "url": "https:\/\/api.devmka.online\/categories\/1\/products?page=5",
+                "label": "5",
+                "page": 5,
+                "active": false
+            },
+            {
+                "url": "https:\/\/api.devmka.online\/categories\/1\/products?page=6",
+                "label": "6",
+                "page": 6,
+                "active": false
+            },
+            {
+                "url": "https:\/\/api.devmka.online\/categories\/1\/products?page=7",
+                "label": "7",
+                "page": 7,
+                "active": false
+            },
+            {
+                "url": "https:\/\/api.devmka.online\/categories\/1\/products?page=8",
+                "label": "8",
+                "page": 8,
+                "active": false
+            },
+            {
+                "url": "https:\/\/api.devmka.online\/categories\/1\/products?page=9",
+                "label": "9",
+                "page": 9,
+                "active": false
+            },
+            {
+                "url": "https:\/\/api.devmka.online\/categories\/1\/products?page=10",
+                "label": "10",
+                "page": 10,
+                "active": false
+            },
+            {
+                "url": null,
+                "label": "...",
+                "active": false
+            },
+            {
+                "url": "https:\/\/api.devmka.online\/categories\/1\/products?page=80",
+                "label": "80",
+                "page": 80,
+                "active": false
+            },
+            {
+                "url": "https:\/\/api.devmka.online\/categories\/1\/products?page=81",
+                "label": "81",
+                "page": 81,
+                "active": false
+            },
+            {
+                "url": "https:\/\/api.devmka.online\/categories\/1\/products?page=2",
+                "label": "Next &raquo;",
+                "page": 2,
+                "active": false
+            }
+        ],
+        "path": "https:\/\/api.devmka.online\/categories\/1\/products",
+        "per_page": 12,
+        "to": 12,
+        "total": 965
+    }
+}
+
