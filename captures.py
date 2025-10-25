@@ -59,8 +59,9 @@ def products_capture(filter_id):
 
     products_list = []
 
-    for id_page in (0, last_page):
+    id_page = 1
 
+    while id_page <= last_page:
         products_params = {
             'page': str(id_page+1),
             'limit': '100',
@@ -75,9 +76,9 @@ def products_capture(filter_id):
 
         products_list.extend(products['data'])
 
-        print(f"[{datetime.now()}] captura da pagina {id_page} finalizada com sucesso")
+        id_page += 1
     
-    print(f"[{datetime.now()}] captura dos produtos do filtro {filter_id} finalizada com sucesso")
+    print(f"[{datetime.now()}] captura de {last_page} pagina(s) finalizada com sucesso")
 
     return products_list
 

@@ -1,41 +1,9 @@
-# mini-Pipeline-ETL -- Objetivos
+# mini-Pipeline-ETL -- Análise, Projeto, Resultado 
 Projeto para raspagem, tratamento e persistência de dados
 
 
-###  Objetivos
-
-- []    **Coleta (scraping)** - Coletar as seguintes informações dos produtos
-
-- []    **Tratamento e Normalização**
-    1. Tornar os nomes das peças em maiúsculo antes da ingestão no banco.
-    2. Tornar o nome do fabricante em maiúsculo para ingestão.
-    3. Analisar e remover termos desnecessários dos nomes das peças.
-    4. Formatar o preço no formato americano (trocar vírgula por ponto, remover R$ ).
-    5. Limpar especificações técnicas deixando somente números em formato float (assumindo
-    6. medidas fixas como kg ou cm).
-    7. Garantir que não haja duplicação de produtos.
-
-- [] **Modelagem & Ingestão**
-    Você pode escolher livremente a estrutura do banco de dados, inclusive mais de uma tabela se achar necessário. Abaixo está uma estrutura sugerida (não obrigatória):
-
-````
-    name (str)--
-    product_url (str)
-    part_number (str)--
-    brand_name (str)--
-    category (str)--
-    photo_url (str)--
-    stock_quantity (int)--
-    gross_weight (float)--
-    width (float)--
-    length (float)--
-    warranty (str)--
-    material (str)-
-
-````
-
-
-    
+##  Análise
+Por ser um 
 - [] **Análise de Dados**
 
 ## Objetivos
