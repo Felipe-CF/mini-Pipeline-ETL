@@ -1,51 +1,72 @@
-import requests, json, os
+import json, os, psycopg2, re
+from json import JSONDecodeError
 from bs4 import BeautifulSoup
+from datetime import datetime
+from captures import get_requests, products_capture
+from data import insert_filter, product_treatment, insert_products
 
+
+def start_connection():
+    return psycopg2.connect(
+            host='localhost',
+            database='pipeline',
+            user='desafio',
+            password='desafio'
+        ) 
 
 
 def main():
-    url = 'https://api.devmka.online/'
+    try:
+        url_filters = 'https://api.devmka.online/categories'
 
-    headers = {
-        'Accept': '*/*',
-        'Accept-Language': 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7',
-        'Connection': 'keep-alive',
-        'Origin': 'https://testdata.devmka.online',
-        'Referer': 'https://testdata.devmka.online/',
-        'Sec-Fetch-Dest': 'empty',
-        'Sec-Fetch-Mode': 'cors',
-        'Sec-Fetch-Site': 'same-site',
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36',
-        'sec-ch-ua': '"Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"',
-        'sec-ch-ua-mobile': '?0',
-        'sec-ch-ua-platform': '"Windows"',
-    }
+        filters_params = {
+            'page': '1',
+            'limit': '6',
+            }
+        
+        print(f"[{datetime.now()}] iniciando captura dos filtros")
 
-    params = {
-        'page': '1',
-        'limit': '6',
-    }
+        response_filters = get_requests(
+            url=url_filters,
+            params=filters_params
+        )
 
-    url_categorias = url + 'categories/'
+        print(f"[{datetime.now()}] filtros captura com sucesso")
 
-    response = requests.get(url=url_categorias, params=params, headers=headers)
+        print(f"[{datetime.now()}] iniciando persistencia dos filtros")
 
-    response = json.loads(response.content.decode('utf-8'))
+        filters = json.loads(response_filters)
 
-    x = 2
+        filters = filters['data']
 
-    url_produtos = url_categorias + "1/products"
+        connection = start_connection()
 
-    params = {
-        'page': '18',
-        'limit': '100',
-    }
+        for filter in filters:
+            insert_filter(
+                category_name=str(filter['name']).upper(),
+                filter_id= filter['id'],
+                connection=connection
+            )
 
-    response = requests.get(url=url_produtos, params=params, headers=headers)
+        print(f"[{datetime.now()}] comandos sql para os filtros finalizados com sucesso")
 
-    response = json.loads(response.content.decode('utf-8'))
+        for filter in filters:
+            products_list =  products_capture(filter_id=filter['id'])
+            
+            clean_products = product_treatment(
+                connection=connection,
+                filter_id=filter['id'],
+                products_list=products_list
+            )
 
-    x = 2
+            insert_products(
+                clean_products=clean_products,
+                connection=connection
+            )
+
+    except JSONDecodeError as e:
+        print(f"[{datetime.now()}] problema no carregamento do json: {str(e)}")
+
 
 
 if __name__ == '__main__':
