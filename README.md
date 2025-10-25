@@ -19,18 +19,18 @@ Projeto para raspagem, tratamento e persistência de dados
     Você pode escolher livremente a estrutura do banco de dados, inclusive mais de uma tabela se achar necessário. Abaixo está uma estrutura sugerida (não obrigatória):
 
 ````
+    name (str)--
     product_url (str)
-    name (str)=
-    part_number (str)-
-    brand_name (str)-
-    category (str)-
-    gross_weight (float)-
-    width (float)-
-    length (float)-
-    warranty (str)-
-    material (str)
-    photo_url (str)-
-    stock_quantity (int)-
+    part_number (str)--
+    brand_name (str)--
+    category (str)--
+    photo_url (str)--
+    stock_quantity (int)--
+    gross_weight (float)--
+    width (float)--
+    length (float)--
+    warranty (str)--
+    material (str)-
 
 ````
 
